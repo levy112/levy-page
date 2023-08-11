@@ -14,7 +14,7 @@
         /* *********************/
         
         #inicio {
-            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/desarrollo-web.png");
             background-size: cover;
             background-position: center center;
             height: 100vh;
@@ -39,7 +39,7 @@
         
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #ff5080;
+            color: #fab702;
         }
         
         #inicio .contenido header .contenido-header nav ul {
@@ -57,7 +57,7 @@
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #ff5080;
+            color: #fab702;
         }
         
         #inicio .contenido header .contenido-header .redes a {
@@ -69,14 +69,16 @@
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #ff5080;
+            color: #fab702;
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #ff5080;
+            color: #fab702;
         }
         
         #inicio .contenido .presentacion {
+            align-items: center;
+            position: relative;
             max-width: 1100px;
             height: 100vh;
             margin: auto;
@@ -88,28 +90,42 @@
         }
         
         #inicio .contenido .presentacion .bienvenida {
-            font-size: 16px;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 5px;
+            font-size: 30px;
+            line-height: 1.1;
+            color: #fff;
+            font-weight: 500;
+            padding-bottom: 15px;
+            margin-bottom: 10px;
+        }
+        #inicio .contenido .presentacion .bienvenida::before {
+            content: "";
+            background-color: #fab702;
+            width: 2px;
+            height: 30px;
+            display: inline-block;
+            margin-right: 20px;
+            transform: translateY(6px);
         }
         
         #inicio .contenido .presentacion h2 {
-            font-size: 55px;
+            font-size: 100px;
+            line-height: 0.9;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
             margin-bottom: 25px;
-            text-align: center;
         }
         
         #inicio .contenido .presentacion h2 span {
             font-size: 25px;
-            color: #ff5080;
+            color: #fab702;
         }
         
         #inicio .contenido .presentacion .descripcion {
-            max-width: 700px;
-            margin: 25px auto;
-            font-size: 18px;
-            text-align: center;
+            font-size: 16px;
+            line-height: 34px;
+            color: #fff;
+            margin-bottom: 50px;
         }
         
         #inicio .contenido .presentacion a {
@@ -126,7 +142,7 @@
         }
         
         #inicio .contenido .presentacion a:hover {
-            background-color: #ff5080;
+            background-color: #fab702;
         }
         
         #icono-nav {
@@ -178,7 +194,7 @@
         }
         
         #sobremi .sobremi h2 span {
-            color: #ff5080;
+            color: #fab702;
         }
         
         #sobremi .sobremi h3 {
@@ -208,7 +224,7 @@
         }
         
         #sobremi .sobremi a:hover {
-            background-color: #ff5080;
+            background-color: #fab702;
             color: #fff;
         }
         /* *********************/
@@ -289,7 +305,7 @@
         /* *********************/
         
         .contenedor-skills {
-            background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+            background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/desarrollo-web.png");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -438,7 +454,7 @@
             position: absolute;
             left: 0px;
             background-color: rgba(0, 0, 0, 0.8);
-            color: #ff5080;
+            color: #fab702;
             width: 100%;
             padding: 10px;
             opacity: 0;
@@ -512,7 +528,7 @@
         }
         
         #contacto .btn-enviar:hover {
-            background-color: #ff5080;
+            background-color: #fab702;
             color: #fff;
         }
         /* *********************/
