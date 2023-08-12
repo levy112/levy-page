@@ -339,41 +339,55 @@
             height: 6px;
             margin: 10px 0px;
         }
+
+        .contenedor-skills .skill .barra .barra-progreso0 {
+            background-color: #fab702;
+            width: 90%;
+            height: 6px;
+            animation: progreso0 2s forwards;
+        }
         
         .contenedor-skills .skill .barra .barra-progreso1 {
-            background-color: #fff;
-            width: 95%;
+            background-color: #fab702;
+            width: 90%;
             height: 6px;
             animation: progreso1 2s forwards;
         }
         
         .contenedor-skills .skill .barra .barra-progreso2 {
-            background-color: #fff;
+            background-color: #fab702;
             width: 90%;
             height: 6px;
             animation: progreso2 2s forwards;
         }
         
         .contenedor-skills .skill .barra .barra-progreso3 {
-            background-color: #fff;
+            background-color: #fab702;
             width: 90%;
             height: 6px;
             animation: progreso3 2s forwards;
         }
         
         .contenedor-skills .skill .barra .barra-progreso4 {
-            background-color: #fff;
-            width: 85%;
+            background-color: #fab702;
+            width: 90%;
             height: 6px;
             animation: progreso4 2s forwards;
         }
-        
+        @keyframes progreso0 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 75%;
+            }
+        }
         @keyframes progreso1 {
             0% {
                 width: 0;
             }
             100% {
-                width: 95%;
+                width: 85%;
             }
         }
         
@@ -382,7 +396,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 80%;
             }
         }
         
@@ -391,7 +405,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 80%;
             }
         }
         
@@ -400,7 +414,7 @@
                 width: 0;
             }
             100% {
-                width: 85%;
+                width: 80%;
             }
         }
         /* *********************/
